@@ -1,0 +1,4 @@
+gradio
+pycryptodome
+pandas
+matplotlib
