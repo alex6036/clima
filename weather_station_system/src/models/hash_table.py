@@ -1,7 +1,9 @@
 # HashTable class for chained hash table
 from src.models.linked_list import LinkedList
 from src.utils.config import HASH_TABLE_SIZE
+import base64
 
+AES_KEY = base64.b64decode("QAREKhIwfWkeZ+Md+o5YWK7nXM9rs/bNZbix7u/YuXk=")
 class HashTable:
     def __init__(self):
         self.size = HASH_TABLE_SIZE  # Size of the hash table (prime number)
